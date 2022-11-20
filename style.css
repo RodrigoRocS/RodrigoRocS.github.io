@@ -22,9 +22,9 @@
 #cabecalho div a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
-#cabecalho div a:hover{color: red;}
+#cabecalho div a:hover{color: #FF2759;}
 
 #cabecalho nav ul{
     display: flex;
@@ -38,4 +38,24 @@
     text-decoration: none;
     color: white;
 }
-#cabecalho nav ul a:hover{color: red;}
+#cabecalho nav ul a:hover{color: #FF2759;}
+
+/* About me */
+
+.aboutme{background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(20, 50, 80));}
+.aboutme img {
+    width: 200px;
+    border-radius: 25%;
+    border: 8px solid black;
+    margin-top: 8%;
+}
+.aboutme .socialmedia {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.aboutme div {
+   
+    
+}
