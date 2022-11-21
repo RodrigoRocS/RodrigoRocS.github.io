@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +17,7 @@
     padding: 15px;
     background-color: #303030;
     justify-content: space-between; 
+    font-family: 'Voltaire', sans-serif;
 }
 #cabecalho div {
     margin-left: 50px;
@@ -23,6 +26,7 @@
     text-decoration: none;
     color: white;
     font-size: 25px;
+    font-family: 'Voltaire', sans-serif;
 }
 #cabecalho div a:hover{color: #FF2759;}
 
@@ -42,20 +46,85 @@
 
 /* About me */
 
-.aboutme{background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(20, 50, 80));}
+.aboutme{background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(20, 50, 80));
+display: flex;
+flex-direction: column;
+text-align: center;
+margin: 0 auto;
+height: 650px;
+margin-top:6%;
+padding-top: 2%;
+font-family: 'Voltaire', sans-serif;
+
+
+}
+.aboutme h3 {
+    color: rgb(15, 110, 12);
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+
 .aboutme img {
     width: 200px;
     border-radius: 25%;
     border: 8px solid black;
-    margin-top: 8%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
+    
+.aboutme h4 {
+    padding-top: 3%;
+    height: 10px;
+}
+
 .aboutme .socialmedia {
     font-size: 40px;
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+#linkedin{
+    color: #0077b5;
     text-decoration: none;
+}
+#linkedin:hover{
+    color: #004a72;
+}
+
+#github{
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+}
+#github:hover{
     color: black;
 }
 
-.aboutme div {
+#whatsapp {
+    text-decoration: none;
+    font-size: 43px;
+    color: #34af23;
+}
+#whatsapp:hover{
+    color: #2a801f;
+}
+
    
+    
+.name {
+    font-family: 'Voltaire', sans-serif;
+    font-size: 32px;
+    margin-bottom: 12px;
+
+}
+
+.about {
+    width: 300px;
+    margin: 0 auto;
+    font-family: 'Voltaire', sans-serif;
+    font-size: 18px;
+
+    
     
 }
