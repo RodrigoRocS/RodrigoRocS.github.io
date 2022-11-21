@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Voltaire&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* cabecalho */
+
+#cabecalho {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: #303030;
+  justify-content: space-between;
+  font-family: "Voltaire", sans-serif;
+}
+#cabecalho div {
+  margin-left: 50px;
+}
+#cabecalho div a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: "Voltaire", sans-serif;
+}
+#cabecalho div a:hover {
+  color: #ff2759;
+}
+
+#cabecalho nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+#cabecalho nav ul a {
+  text-decoration: none;
+  color: white;
+}
+#cabecalho nav ul a:hover {
+  color: #ff2759;
+}
+
+/* About me */
+
+.aboutme {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(20, 50, 80)
+  );
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  height: 650px;
+  margin-top: 6%;
+  padding-top: 2%;
+  font-family: "Voltaire", sans-serif;
+}
+.aboutme h3 {
+  color: rgb(15, 110, 12);
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.aboutme img {
+  width: 200px;
+  border-radius: 25%;
+  border: 8px solid black;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.aboutme h4 {
+  padding-top: 3%;
+  height: 10px;
+}
+
+
+.name {
+  font-family: "Voltaire", sans-serif;
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.about {
+  width: 300px;
+  margin: 0 auto;
+  font-family: "Voltaire", sans-serif;
+  font-size: 18px;
+}
+.traits {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(20, 50, 80))
+}
+
+/* Footer */    
+
+.mysocial{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #202020;
+    font-family: "Voltaire", sans-serif;
+    color: white;
+}
+
+.links {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #303030;
+    font-size: 40px;
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+#linkedin {
+    color: #0077b5;
+    text-decoration: none;
+  }
+  #linkedin:hover {
+    color: #004a72;
+  }
+  
+  #github {
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+  }
+  #github:hover {
+    color: black;
+  }
+  
+  #whatsapp {
+    text-decoration: none;
+    font-size: 43px;
+    color: #34af23;
+  }
+  #whatsapp:hover {
+    color: #2a801f;
+  }
