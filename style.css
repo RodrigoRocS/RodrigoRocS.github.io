@@ -122,17 +122,17 @@
     justify-content: center;
     background-color: #303030;
     font-size: 40px;
-    padding-top: 1%;
+    margin-bottom: ;
     display: flex;
     justify-content: center;
     gap: 18px;
 }
 #linkedin {
-    color: #0077b5;
+    color: #004a72;
     text-decoration: none;
   }
   #linkedin:hover {
-    color: #004a72;
+    color: #0077b5;
   }
   
   #github {
@@ -146,8 +146,8 @@
   #whatsapp {
     text-decoration: none;
     font-size: 43px;
-    color: #34af23;
+    color: #2a801f;
   }
   #whatsapp:hover {
-    color: #2a801f;
+    color: #34af23;
   }
